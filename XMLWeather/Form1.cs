@@ -78,19 +78,21 @@ namespace XMLWeather
             days[0].location = reader.GetAttribute("name");
 
             reader.ReadToFollowing("temperature");
-            days[0].currentTemp = reader.GetAttribute("value");
+            days[0].currentTemp = reader.GetAttribute("name");
 
             reader.ReadToFollowing("wind");
             days[0].windSpeed = reader.GetAttribute("speed");
+
 
             reader.ReadToFollowing("precipitation");
             days[0].precipitation = reader.GetAttribute("probability");
             days[0].precipitation = reader.GetAttribute("type");
 
 
-            reader.ReadToFollowing("clouds");
-            days[0].visibility = reader.GetAttribute("value");
+            reader.ReadToFollowing("weather");
+            days[0].clouds= reader.GetAttribute("value");
         }
+
 
 
     }
