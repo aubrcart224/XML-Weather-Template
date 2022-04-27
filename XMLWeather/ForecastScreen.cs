@@ -63,5 +63,14 @@ namespace XMLWeather
             CurrentScreen cs = new CurrentScreen();
             f.Controls.Add(cs);
         }
+
+        private void searchLable_Click(object sender, EventArgs e)
+        {
+            Form f = this.FindForm();
+            f.Controls.Remove(this);
+
+            SearchScreen cs = new SearchScreen();
+            f.Controls.Add(cs);
+        }
     }
 }

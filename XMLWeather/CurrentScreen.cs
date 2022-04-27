@@ -31,6 +31,8 @@ namespace XMLWeather
             maxOutput.Text = Form1.days[0].tempHigh;
             cloudsOutput.Text = Form1.days[0].clouds;
 
+            
+
 
         }
 
@@ -51,6 +53,18 @@ namespace XMLWeather
         private void CurrentScreen_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void seachLable_Click(object sender, EventArgs e)
+        {
+            Form f = this.FindForm();
+            f.Controls.Remove(this);
+
+            SearchScreen cs = new SearchScreen();
+            f.Controls.Add(cs);
+
+
+            
         }
     }
 }
