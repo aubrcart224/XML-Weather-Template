@@ -27,6 +27,32 @@ namespace XMLWeather
             date2.Text = Form1.days[2].date;
             min2.Text = Form1.days[2].tempLow;
             max2.Text = Form1.days[2].tempHigh;
+
+
+            date1.Text = Form1.days[3].date;
+            min1.Text = Form1.days[3].tempLow;
+            max1.Text = Form1.days[3].tempHigh;
+
+
+            date2.Text = Form1.days[4].date;
+            min2.Text = Form1.days[4].tempLow;
+            max2.Text = Form1.days[4].tempHigh;
+
+            date2.Text = Form1.days[5].date;
+            min2.Text = Form1.days[5].tempLow;
+            max2.Text = Form1.days[5].tempHigh;
+
+
+            date1.Text = Form1.days[6].date;
+            min1.Text = Form1.days[6].tempLow;
+            max1.Text = Form1.days[6].tempHigh;
+
+
+            date2.Text = Form1.days[7].date;
+            min2.Text = Form1.days[7].tempLow;
+            max2.Text = Form1.days[7].tempHigh;
+
+
         }
 
         private void label3_Click(object sender, EventArgs e)

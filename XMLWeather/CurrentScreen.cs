@@ -15,6 +15,12 @@ namespace XMLWeather
         {
             InitializeComponent();
             DisplayCurrent();
+
+
+            //start if statment code 
+
+            //if (cloudsOutput.Text = "overcast clouds");
+
         }
 
         public void DisplayCurrent()
@@ -38,6 +44,11 @@ namespace XMLWeather
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CurrentScreen_Load(object sender, EventArgs e)
         {
 
         }
